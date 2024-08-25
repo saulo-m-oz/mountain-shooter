@@ -146,6 +146,12 @@ LEVELS = (
     'Level3',
 )
 
+LEVELS_BACKGROUND_COUNT = {
+    'Level1Bg': 7,
+    'Level2Bg': 5,
+    'Level3Bg': 5,
+}
+
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
