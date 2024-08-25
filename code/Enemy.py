@@ -26,7 +26,7 @@ class Enemy(Entity):
             elif self.rect.top <= 0:
                 self.direction = 1
 
-            self.rect.y += ENTITY_SPEED[self.name] * self.direction * self.speed_multiplier
+            self.rect.y += speed * self.direction * self.speed_multiplier
 
 
 
